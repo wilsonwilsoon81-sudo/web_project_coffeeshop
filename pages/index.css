@@ -1,3 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
 .header {
   position: relative;
   min-height: 720px;
@@ -95,7 +108,7 @@
   margin: 0;
 }
 
-.header__paragraph--schedule {
+.header__schedule {
   position: absolute;
   bottom: 40px;
   left: 80px;
@@ -108,7 +121,7 @@
   text-align: left;
 }
 
-.header__paragraph--address {
+.header__address {
   position: absolute;
   bottom: 40px;
   right: 80px;
@@ -183,12 +196,4 @@
   font-weight: 500;
   color: #ffffff;
   margin: 0;
-}
-
-.recipes__video-caption--left {
-  text-align: left;
-}
-
-.recipes__video-caption--right {
-  text-align: right;
 }
