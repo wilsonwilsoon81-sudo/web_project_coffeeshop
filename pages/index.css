@@ -1,9 +1,122 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
+.header {
+  position: relative;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.header__logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav__group {
+  display: flex;
+  width: 245px;
+  justify-content: space-between;
+}
+
+.nav__link {
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__title {
+  position: absolute;
+  top: 252px;
+  left: 80px;
+  max-width: 709px;
+  margin: 0 0 28px 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 58px;
+  line-height: 72px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.header__title-line:first-child {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__title-line:last-child {
+  display: block;
+}
+
+.header__description {
+  position: absolute;
+  top: 418px;
+  left: 80px;
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+  object-fit: cover;
+}
+
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #6f6f6f;
+  margin: 0;
+}
+
+.header__paragraph--schedule {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #6f6f6f;
+  margin: 0;
+  text-align: left;
+}
+
+.header__paragraph--address {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #6f6f6f;
+  margin: 0;
+  text-align: right;
 }
