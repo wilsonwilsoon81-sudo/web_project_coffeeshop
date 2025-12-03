@@ -3,8 +3,8 @@ html {
 }
 
 .page {
-  min-width: 1100px;
-  max-width: 1600px;
+  max-width: 1100px;
+  min-width: 1600px;
   width: 100%;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
@@ -24,12 +24,13 @@ html {
   margin: 0;
 }
 
-.header__logo {
+.nav__logo {
   position: absolute;
   top: 30px;
   left: 30px;
   width: 105px;
   height: 39px;
+  z-index: 10;
 }
 
 .nav {
@@ -41,7 +42,7 @@ html {
   align-items: center;
 }
 
-.nav__link {
+.nav__links {
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
